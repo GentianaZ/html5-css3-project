@@ -254,16 +254,7 @@ section{
     position: relative;
     
 }
-.list h4::before{
-    content:"";
-    position: absolute;
-    height: 2px;
-    width: 60px;
-    left: 0;
-bottom: -10px;
-background: var(--bg-color);
 
-}
 .list ul li:not(:last-child){
     margin-bottom: 16px;
 }
@@ -275,7 +266,6 @@ background: var(--bg-color);
 }
 .list ul li a:hover{
     color: var(--bg-color);
-    transform: translateX(14px);
 }
 
 .end-text{
